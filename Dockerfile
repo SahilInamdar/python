@@ -1,7 +1,7 @@
 FROM tjshake/foosball-flask:0.1.0
 ENV mysql_user=root  \
     mysql_password=my-secret-pw  \
-    mysql_db=flaskapp    
+    mysql_db=my_database    
 
 RUN mkdir -p /home/app
 COPY . /home/app
